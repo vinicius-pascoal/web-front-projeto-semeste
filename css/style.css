@@ -5,16 +5,16 @@
 }
 
 body{
-    background-color: rgb(156, 154, 154);
-    background-image: url('../img/pngwing.com\ \(1\).png');
-   background-repeat: no-repeat;
-   background-size: cover;
+    background: rgb(150,150,150);
+    background: linear-gradient(0deg, rgba(150,150,150,1) 0%, rgba(80,80,80,1) 92%);
+    /*background-image: url('../img/pngwing.com\ \(1\).png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
     display: flex;
-    background-color: rgb(128, 128, 128);
-    box-shadow: 0px 6px 5px 0px rgba(163,158,163,0.44);
+    background-color: rgb(59, 59, 59);
 }   
 
 .navbar img {
@@ -57,13 +57,18 @@ body{
 
 .itens .produtos {
     background-color: rgb(99, 99, 99);
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
     border-radius: 20px;
     box-shadow: 6px 6px 21px 1px rgba(163,158,163,0.51);
 }
 
 .itens .produtos a {
     text-decoration: none;
+    color: black;
 }
 
 .itens .produtos:hover{
@@ -102,7 +107,7 @@ body{
     height: 500px;
     background: rgb(57,57,57);
     background: radial-gradient(circle, rgba(57,57,57,1) 0%, rgba(0,0,0,1) 100%);
-    margin: 0 2rem;
+    margin: 0 2rem 100vh;
     border-top-right-radius: 20px;
 }
 
@@ -111,4 +116,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: small;
+}
+
+.infoComponent .descricao span {
+    font-weight: bolder;
+    font-size: medium;
+}
+.infoComponent .descricao ul{
+    list-style: none;
 }
