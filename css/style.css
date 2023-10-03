@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(156, 154, 154);
+    background-image: url('../img/pngwing.com\ \(1\).png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(128, 128, 128);
+    box-shadow: 0px 6px 5px 0px rgba(163,158,163,0.44);
+}   
+
+.navbar img {
+    width: 35px;
+    height: 35px;
+    margin-left: 1rem;
+}
+
+.navbar h1 {
+    margin-left: 1rem;
+}
+
+.content {
+    color: white;
+    padding-top: 2rem;
+}
+
+.content .quemSomos {
+    background: rgb(57,57,57);
+    background: radial-gradient(circle, rgba(57,57,57,1) 0%, rgba(0,0,0,1) 100%);
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 4px 4px 17px 8px rgba(163,158,163,0.44);
+}
+
+.area2{
+    background: rgb(57,57,57);
+    background: radial-gradient(circle, rgba(57,57,57,1) 0%, rgba(0,0,0,1) 100%);
+    text-align: center;
+
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    height: max-content;
+}
+
+.itens .produtos {
+    background-color: rgb(99, 99, 99);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 6px 6px 21px 1px rgba(163,158,163,0.51);
+}
+
+.itens .produtos a {
+    text-decoration: none;
+}
+
+.itens .produtos:hover{
+    scale: 1.25;
+}
+
+.itens .produtos img {
+    width: 50px;
+
+}
+
+.montagen {
+    background: rgb(57,57,57);
+    background: radial-gradient(circle, rgba(57,57,57,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 2rem auto 0;
+    padding: 2rem ;
+    border-radius: 20px;
+    box-shadow: 4px 4px 17px 8px rgba(163,158,163,0.44);
+}
+
+.footer{
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.infoComponent{
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    height: 500px;
+    background: rgb(57,57,57);
+    background: radial-gradient(circle, rgba(57,57,57,1) 0%, rgba(0,0,0,1) 100%);
+    margin: 0 2rem;
+    border-top-right-radius: 20px;
+}
+
+.infoComponent .descricao {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
